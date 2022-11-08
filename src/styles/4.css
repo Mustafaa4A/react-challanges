@@ -1,0 +1,34 @@
+.bar-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar-container .barwidth, .bar-container .background{
+  height: 25px;
+  border-radius: 50px;
+  background-color:rgb(168, 168, 168);
+}
+
+.bar-container .background{
+ width: 250px;
+ margin-bottom: 20px;
+}
+
+.bar-container .barwidth{
+  text-align: center;
+  background-image: linear-gradient(rgb(255, 55, 55), rgb(124, 124, 255));
+  transition: width 3s;
+}
+
+.bar-container .barwidth span{
+  margin: 10px;
+  font-size: 1.2em;
+  color: white;
+}
+
+.bar-container input{
+  padding: 8px;
+  border-radius: 50px;
+}
