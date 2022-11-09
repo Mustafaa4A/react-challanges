@@ -1,0 +1,14 @@
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container input, .form-container label, .form-container button{
+  display: block;
+  margin: 5px 0;
+}
+.form-container ul{
+  font-weight: bold;
+}
