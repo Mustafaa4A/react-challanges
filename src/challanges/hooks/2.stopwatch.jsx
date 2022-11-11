@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../styles/2.css';
+import '../../styles/2.css';
  
 
 const StopWatch = () => {

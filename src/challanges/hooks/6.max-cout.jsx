@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "../styles/6.css";
+import "../../styles/6.css";
 
 const MaxCount = () => {
   const [count, setCount] = useState(0);

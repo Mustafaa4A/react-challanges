@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/4.css";
+import "../../styles/4.css";
 
 const ProgressBar = () => {
   const [bar, setBar] = useState(10);
